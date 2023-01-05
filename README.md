@@ -29,3 +29,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 
 ## Mock-Up
+
+https://user-images.githubusercontent.com/114713151/210686372-2d65b3ff-a071-4f5e-9a7c-167842d9ab9b.png
+
+https://user-images.githubusercontent.com/114713151/210686425-1167f1d7-8136-40c7-9ce9-af07f721738f.png
