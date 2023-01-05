@@ -1,15 +1,16 @@
 const express = require('express');
+const fs = require('fs');
 const path = require('path');
+const util = require('util');
 
 
+//setting up my PORT
 const PORT = process.env.PORT || 3001;
 const app = express();
 
 const readFromFile = util.promisify(fs.readFile);
 const writeFromFile = util.promisify(fs.writeFile);
 
-const fs = require('fs');
-const util = require('util');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
